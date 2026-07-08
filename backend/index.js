@@ -13,7 +13,7 @@ const PORT = process.env.PORT ?? 2000;
 const db_uri = process.env.DB_URI;
 const FRONTEND_URL = process.env.FRONTEND_URL;
 
-const publicDir = path.join(process.cwd,"public")
+const publicDir = path.join(process.cwd(),"public")
 
 const app = express();
 
