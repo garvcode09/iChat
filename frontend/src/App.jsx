@@ -4,7 +4,7 @@ import viteLogo from "./assets/vite.svg";
 import heroImg from "./assets/hero.png";
 import "./App.css";
 import { Show, SignInButton, SignUpButton, UserButton } from "@clerk/react";
-import PushUpMuscleVisualizer from "./Pushup-muscle-visualizer.jsx";
+
 function App() {
   const [count, setCount] = useState(0);
 
@@ -19,7 +19,7 @@ function App() {
           <UserButton/>
         </Show>
       </header>
-      <PushUpMuscleVisualizer/>
+     
     </>
   );
 }
