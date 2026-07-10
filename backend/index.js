@@ -30,7 +30,7 @@ app.use(clerkMiddleware());
 
 // routes
 app.get("/health", (req, res) => {
-  res.status("200").json({ message: "ok" });
+  res.status(200).json({ message: "ok" });
 });
 
 if(fs.existsSync(publicDir)){
